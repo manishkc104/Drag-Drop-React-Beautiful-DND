@@ -1,0 +1,52 @@
+.main-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.animals li {
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 1rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.image-container {
+  width: 70px;
+  height: 60px;
+  background-color: #e8e8e8;
+  margin-right: 10px;
+}
+
+.animals img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.information-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+  width: 200px;
+}
+
+.heading {
+  color: #2c2c2c;
+  font-size: 12px;
+  margin: 0;
+}
+
+.description {
+  color: #858585;
+  font-size: 10px;
+  margin-top: 10px;
+}
